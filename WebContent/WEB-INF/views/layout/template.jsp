@@ -16,6 +16,13 @@
 
 <tiles:insertAttribute name="navbar" />
 
+<!-- colonne gauche -->
+<div class="col-sm-2">
+	<ul class="nav nav-pills nav-stacked">
+		<li id="map" role="presentation"><a href="map">Map</a></li>
+	</ul>
+</div>
+
 <tiles:insertAttribute name="body" />
 
 <tiles:insertAttribute name="a-propos" />

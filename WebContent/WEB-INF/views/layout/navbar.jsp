@@ -13,7 +13,7 @@
 					class="icon-bar"></span>
 			</button>
 
-			<a class="navbar-brand" href="#">Recherche urbanisme</a>
+			<a class="navbar-brand" href="index">Menu</a>
 		</div>
 
 		<div class="navbar-collapse collapse"

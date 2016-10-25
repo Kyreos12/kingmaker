@@ -11,8 +11,7 @@
 </div>
 <script type="text/javascript" src="<c:url value='/lib/jquery/jquery.min.js'/>"></script>
 <script type="text/javascript" src="<c:url value='/lib/bootstrap/js/bootstrap.min.js'/>"></script>
-<script type="text/javascript" src="<c:url value='/lib/jquery/bootstrap-modal/js/bootstrap-modal.js'/>"></script>
-<script type="text/javascript" src="<c:url value='/lib/jquery/bootstrap-modal/js/bootstrap-modalmanager.js'/>"></script>
 <script type="text/javascript" src="<c:url value='/lib/jquery/datetimepicker/jquery.datetimepicker.min.js'/>"></script>
+<script type="text/javascript" src="<c:url value='/lib/kingmaker/js/map.js'/>"></script>
 </body>
 </html>

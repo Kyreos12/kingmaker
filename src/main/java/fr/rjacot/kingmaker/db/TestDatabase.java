@@ -40,9 +40,9 @@ public final class TestDatabase {
 	 * @return numéro de version de la base de données.
 	 * @throws SQLException 
 	 */
-	public static Double getBaseVersion(final Connection c) throws SQLException {
+	public static String getBaseVersion(final Connection c) throws SQLException {
 		
 		final String query = "SELECT max(numero) as numero FROM version";
-		return (Double) QueryUtils.getUniqueValue(c, query);
+		return (String) QueryUtils.getUniqueValue(c, query);
 	}
 }
