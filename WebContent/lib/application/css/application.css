@@ -1,0 +1,36 @@
+/**
+ *	Datatables
+ */
+table.table-bordered.dataTable {
+	border-collapse: collapse !important;
+	border: 0px !important;
+	text-align: center !important;
+	color: #7b7c7f;
+}
+
+table.table-bordered.dataTable thead th, table.dataTable thead td {
+	text-align: center !important; border-bottom : 0px;
+	background-color: #d1d6dc;
+	color: #7b7c7f;
+	border-bottom: 0px;
+}
+
+table.table-bordered tr:nth-child(odd) td {
+	border: 1px solid #d1d6dc;
+	background-color: #ffffff;
+}
+
+table.table-bordered tr:nth-child(even) td {
+	border: 1px solid #d1d6dc;
+	background-color: #d1d6dc;
+}
+
+body {
+	background-color : #ddffff;
+}
+
+.titre_degrade {
+	background: -webkit-gradient(linear, left top, left bottom, from(#6bbae0), to(#3a4898));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}

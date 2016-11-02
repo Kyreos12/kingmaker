@@ -11,7 +11,7 @@
 
 	<mvc:annotation-driven />
 
-	<context:component-scan base-package="fr.rjacot.kingmaker" />
+	<context:component-scan base-package="fr.rjacot.application" />
 
 	<!-- Rend accessible les ressources dans l'application -->
 	<mvc:resources mapping="/lib/**" location="/lib/" cache-period="#{60 * 60}" />
@@ -27,10 +27,6 @@
 		<property name="defaultEncoding" value="UTF8" />
 	</bean>
 
-	<bean class="org.springframework.web.servlet.view.tiles3.TilesViewResolver">
-		<property name="order" value="1" />
-	</bean>
-
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/views/" />
@@ -38,11 +34,5 @@
 		<property name="order" value="2" />
 	</bean>
 
-	<bean class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
-		<property name="definitions">
-			<list>
-				<value>/WEB-INF/spring/tiles/tiles-definitions.xml</value>
-			</list>
-		</property>
-	</bean>
+
 </beans>

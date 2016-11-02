@@ -1,10 +1,19 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@include file="layout/header.jsp" %>
 
-<div class="col-sm-10">
-	<canvas id="hexmap" width="1560" height="657"></canvas>
-</div>
+<style>
+	#hexmap {
+		background-image:
+			url(http://img08.deviantart.net/17bd/i/2012/081/0/e/pathfinder_kingmaker_campaign_kingdom_map_by_mackarious-d4tmkki.jpg);
+			
+		background-position: -40px;
+	}
+</style>
 
-<div class="modal fade" id="editHexagone" tabindex="-1" role="dialog">
+<canvas id="hexmap" width="1560" height="657"></canvas>
+
+${modal}
+<!-- <div class="modal fade" id="editHexagone" tabindex="-1" role="dialog">
 	<div class="modal-dialog">
 		<div class="modal-content">
 		
@@ -47,4 +56,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div>-->
+
+<link rel="stylesheet" type="text/css" href="<c:url value='/lib/application/css/map.css'/>" />
+<%@include file="layout/footer.jsp" %>
